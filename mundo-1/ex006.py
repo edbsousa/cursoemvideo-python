@@ -10,5 +10,5 @@ raizq = num**(1/2)
 
 print(f'\n- O dobro de {num} é {dobro}.')
 print(f'- O triplo de {num} é {triplo}.')
-print(f'- E a raiz quadrada de {num} é {raizq:.2}')
+print(f'- E a raiz quadrada de {num} é {raizq:.2f}')
 
