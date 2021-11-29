@@ -8,7 +8,7 @@ print('='*45 + f'\n{msg:^45}\n' + '='*45)
 real = float(input('\nDigite a quantia em Reais R$ que você possui: '))
 
 cambio = float(3.27)
-dolar = float(real * cambio)
+dolar = float(real / cambio)
 
 print(f'Você tem R${real:.2f}, portanto você pode comprar US${dolar:.2f}.')
 
