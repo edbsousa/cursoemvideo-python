@@ -11,7 +11,7 @@ nascimento = int(input('Digite o ano de nascimento: '))
 idade = datetime.datetime.now().year - nascimento
 
 if idade == 18:
-    print('Você precisar se alistar este ano.')
+    print('Você precisa se alistar este ano.')
 elif idade < 18:
     print(f'Você tem/ou ainda vai fazer no ano corrente {idade} anos. '
           f'\nPortanto, ainda precisará se alistar:'
