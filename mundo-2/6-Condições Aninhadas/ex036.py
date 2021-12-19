@@ -19,5 +19,5 @@ if valor_parcela > limite:
           f'\nExcedeu {excede:.2f}')
 else:
     print(f'\nEMPRÉSTIMO AUTORIZADO')
-    print(f'Você irá pagar R${valor_parcela} mensalmente por {qtd_anos} anos')
+    print(f'Você irá pagar R${valor_parcela:.2f} mensalmente por {qtd_anos} anos')
 
