@@ -7,7 +7,13 @@
 # – Até 25 anos: SÊNIOR
 # – Acima de 25 anos: MASTER
 
-idade = int(input('Digite a sua idade: '))
+from datetime import date
+
+nascimento = int(input('Digite o ano do seu nascimento: '))
+
+idade = date.today().year - nascimento
+
+print(f'\nVocê tem {idade} anos.')
 
 if idade < 10:
     print(f'A sua categoria é: MIRIM.')
