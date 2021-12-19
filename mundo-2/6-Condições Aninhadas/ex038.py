@@ -7,11 +7,11 @@
 num1 = int(input('Digite o primeiro número: '))
 num2 = int(input('Digite o segundo número: '))
 
-if num2 < num1:
-    print(f'O menor número digitado foi o {num2}.')
-elif num1 == num2:
-    print('Os números são iguais.')
+if num1 > num2:
+    print(f'O primeiro valor digitado é o maior.')
+elif num2 > num1:
+    print('O segundo valor digitado é o maior.')
 else:
-    print(f'O menor número digitado foi o {num1}')
+    print(f'Os números digitados são iguais.')
 
 
