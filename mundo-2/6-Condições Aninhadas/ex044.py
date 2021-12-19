@@ -43,3 +43,5 @@ elif opcao_pagamento == 4:
                         '\nEscolha a opção: '))
     print(f'\nVocê irá pagar em {parcela} vezes.'
           f'\nR${((valor_produto / parcela) * 1.2):.2f} o valor de cada parcela.')
+else:
+    print('OPÇÃO INVÁLIDA! DIGITE UMA DAS OPÇÕES DISPONÍVEIS.')
