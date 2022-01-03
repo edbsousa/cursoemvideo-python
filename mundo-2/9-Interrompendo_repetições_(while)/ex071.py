@@ -38,5 +38,4 @@ while True:
     print(f'{saque1} nota(s) de R$1')
     if resta1 == 0:
         break
-
 print('Saque realizado com sucesso.')
