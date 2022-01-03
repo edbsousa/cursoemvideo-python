@@ -5,7 +5,6 @@
 # OBS: considere que o caixa possui cédulas de R$50, R$20, R$10 e R$1.
 
 valor = int(input('Digite o valor a ser sacado: R$'))
-
 total = valor
 cedulaatual = 50
 totalcedulas = 0
@@ -23,8 +22,5 @@ while True:
         elif cedulaatual == 10:
             cedulaatual = 1
         totalcedulas = 0
-
         if total == 0:
             break
-
-
